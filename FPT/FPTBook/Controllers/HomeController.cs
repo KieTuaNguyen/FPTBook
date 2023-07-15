@@ -15,7 +15,7 @@ namespace FPTBook.Controllers
 
         public IActionResult Index()
         {
-            return View("Index");
+            return View("Privacy");
         }
 
         public IActionResult Privacy()
