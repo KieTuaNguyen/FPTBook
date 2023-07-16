@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FPTBook.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook.Data
 {
@@ -9,5 +10,7 @@ namespace FPTBook.Data
         {
                         
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }

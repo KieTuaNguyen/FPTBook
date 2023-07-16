@@ -1,0 +1,6 @@
+Creating a table
++ Create model inside Models folder
++ Create a DB set for that model inside DBContext class in Data/ApplcationDBContext.cs
++ In the package manager console (Tool/NuGet Package Manager/Package Manager Console), run the following commands:
+    + Add-Migration <migration name> (For example: Add-Migration CreateCategoryTable)
+    + Update-Database (To update the database with the new migration in the database)
