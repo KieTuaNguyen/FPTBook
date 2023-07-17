@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPTBook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4a44cccd91a7873ce19a0d3c5072b05779da10d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3408f5d1fc9b354f7e22af214a80d5d0ea0deb43")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPTBook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPTBook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
