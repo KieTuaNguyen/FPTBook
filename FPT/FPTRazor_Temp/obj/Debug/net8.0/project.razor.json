@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\obj\\Debug\\net8.0\\project.razor.json",
-  "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\FPTBook.csproj",
+  "SerializedFilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\obj\\Debug\\net8.0\\project.razor.json",
+  "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\FPTRazor_Temp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -19085,66 +19085,41 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "FPTBook",
+  "RootNamespace": "FPTRazor_Temp",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Category\\Delete.cshtml",
-      "TargetPath": "Views\\Category\\Delete.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Shared\\_Notification.cshtml",
-      "TargetPath": "Views\\Shared\\_Notification.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Category\\Create.cshtml",
-      "TargetPath": "Views\\Category\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Category\\Edit.cshtml",
-      "TargetPath": "Views\\Category\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Category\\Index.cshtml",
-      "TargetPath": "Views\\Category\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],
