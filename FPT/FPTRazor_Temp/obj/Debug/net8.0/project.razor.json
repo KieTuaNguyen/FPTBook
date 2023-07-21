@@ -19118,6 +19118,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\Pages\\Categories\\Index.cshtml",
+      "TargetPath": "Pages\\Categories\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTRazor_Temp\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
