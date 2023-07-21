@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPTRazor_Temp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991714c53b0facf224e31fbbc9b6539548f7c1d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c04602f9cd4cc06322327153f5a1fe93884581f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPTRazor_Temp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPTRazor_Temp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
