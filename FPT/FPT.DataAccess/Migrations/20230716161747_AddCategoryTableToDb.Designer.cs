@@ -10,40 +10,40 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FPT.DataAcess.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230716161747_AddCategoryTableToDb")]
-    partial class AddCategoryTableToDb
+  [DbContext(typeof(ApplicationDbContext))]
+  [Migration("20230716161747_AddCategoryTableToDb")]
+  partial class AddCategoryTableToDb
+  {
+    /// <inheritdoc />
+    protected override void BuildTargetModel(ModelBuilder modelBuilder)
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
-        {
 #pragma warning disable 612, 618
-            modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.0-preview.6.23329.4")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+      modelBuilder
+          .HasAnnotation("ProductVersion", "8.0.0-preview.6.23329.4")
+          .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+      SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("FPTBook.Models.Category", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+      modelBuilder.Entity("FPTBook.Models.Category", b =>
+          {
+            b.Property<int>("Id")
+                      .ValueGeneratedOnAdd()
+                      .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("DisplayOrder")
-                        .HasColumnType("int");
+            b.Property<int>("DisplayOrder")
+                      .HasColumnType("int");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+            b.Property<string>("Name")
+                      .IsRequired()
+                      .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+            b.HasKey("Id");
 
-                    b.ToTable("Categories");
-                });
+            b.ToTable("Categories");
+          });
 #pragma warning restore 612, 618
-        }
     }
+  }
 }
