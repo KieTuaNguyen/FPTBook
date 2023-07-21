@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\bin\Debug\net8.0\FPT.Utility.deps.json
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\bin\Debug\net8.0\FPT.Utility.dll
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\bin\Debug\net8.0\FPT.Utility.pdb
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.AssemblyInfo.cs
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.sourcelink.json
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.dll
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\refint\FPT.Utility.dll
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.pdb
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\ref\FPT.Utility.dll
