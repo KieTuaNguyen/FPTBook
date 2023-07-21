@@ -1,4 +1,4 @@
-using FPTBook.Data;
+using FPT.DataAcess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\bin\Debug\net8.0\FPT.Models.deps.json
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\bin\Debug\net8.0\FPT.Models.dll
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\bin\Debug\net8.0\FPT.Models.pdb
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\obj\Debug\net8.0\FPT.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\obj\Debug\net8.0\FPT.Models.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\obj\Debug\net8.0\FPT.Models.AssemblyInfo.cs
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\obj\Debug\net8.0\FPT.Models.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\obj\Debug\net8.0\FPT.Models.sourcelink.json
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\obj\Debug\net8.0\FPT.Models.dll
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\obj\Debug\net8.0\refint\FPT.Models.dll
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\obj\Debug\net8.0\FPT.Models.pdb
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Models\obj\Debug\net8.0\ref\FPT.Models.dll

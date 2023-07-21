@@ -1,5 +1,5 @@
-﻿using FPTBook.Data;
-using FPTBook.Models;
+﻿using FPT.DataAcess.Data;
+using FPT.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FPTBook.Controllers

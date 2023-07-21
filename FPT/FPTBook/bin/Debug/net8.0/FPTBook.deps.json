@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "FPTBook/1.0.0": {
         "dependencies": {
+          "FPT.DataAccess": "1.0.0",
+          "FPT.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.6.23329.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.6.23329.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0-preview.6.23329.4",
@@ -2658,6 +2660,27 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "FPT.DataAccess/1.0.0": {
+        "dependencies": {
+          "FPT.Models": "1.0.0",
+          "FPT.Utility": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.6.23329.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.6.23329.4"
+        },
+        "runtime": {
+          "FPT.DataAccess.dll": {}
+        }
+      },
+      "FPT.Models/1.0.0": {
+        "runtime": {
+          "FPT.Models.dll": {}
+        }
+      },
+      "FPT.Utility/1.0.0": {
+        "runtime": {
+          "FPT.Utility.dll": {}
+        }
       }
     }
   },
@@ -4241,6 +4264,21 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "FPT.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FPT.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FPT.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
