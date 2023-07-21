@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 using FPT.DataAccess.Data;
+=======
+using FPT.DataAcess.Data;
+>>>>>>> N-Tier-Architecture-02e
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

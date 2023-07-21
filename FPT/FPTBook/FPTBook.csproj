@@ -19,7 +19,10 @@
   <ItemGroup>
     <ProjectReference Include="..\FPT.DataAccess\FPT.DataAccess.csproj" />
     <ProjectReference Include="..\FPT.Models\FPT.Models.csproj" />
+<<<<<<< HEAD
     <ProjectReference Include="..\FPT.Utility\FPT.Utility.csproj" />
+=======
+>>>>>>> N-Tier-Architecture-02e
   </ItemGroup>
 
 </Project>

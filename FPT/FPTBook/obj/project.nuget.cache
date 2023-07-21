@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "t3NjFTUdWp7ERuQ81+9/POnPrXrkiiBg0Vl1udfrCNmSsUVorY5vNuO36fTtW23GqoXEwEnEUJGPuogAL6YCCA==",
+=======
+  "dgSpecHash": "739Fyjc0vzRdgI+4JsT5zMaSteWr1GQCdTvKtE9wuXhYU5HTHP69mzFy9MrIc0U3u9Ja0FmxiBefn/SLjoUoRg==",
+>>>>>>> N-Tier-Architecture-02e
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\FPTBook.csproj",
   "expectedPackageFiles": [

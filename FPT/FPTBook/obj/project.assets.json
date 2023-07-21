@@ -4157,7 +4157,10 @@
         "dependencies": {
           "FPT.Models": "1.0.0",
           "FPT.Utility": "1.0.0",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0-preview.6.23329.11",
+=======
+>>>>>>> N-Tier-Architecture-02e
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.6.23329.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.6.23329.4"
         },
@@ -4171,9 +4174,12 @@
       "FPT.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+<<<<<<< HEAD
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0-preview.6.23329.11"
         },
+=======
+>>>>>>> N-Tier-Architecture-02e
         "compile": {
           "bin/placeholder/FPT.Models.dll": {}
         },
@@ -4184,9 +4190,12 @@
       "FPT.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+<<<<<<< HEAD
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0-preview.6.23329.11"
         },
+=======
+>>>>>>> N-Tier-Architecture-02e
         "compile": {
           "bin/placeholder/FPT.Utility.dll": {}
         },
@@ -11844,8 +11853,11 @@
     "net8.0": [
       "FPT.DataAccess >= 1.0.0",
       "FPT.Models >= 1.0.0",
+<<<<<<< HEAD
       "FPT.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0-preview.6.23329.11",
+=======
+>>>>>>> N-Tier-Architecture-02e
       "Microsoft.EntityFrameworkCore >= 8.0.0-preview.6.23329.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.6.23329.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0-preview.6.23329.4",
@@ -11884,9 +11896,12 @@
             },
             "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.Models\\FPT.Models.csproj": {
               "projectPath": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.Models\\FPT.Models.csproj"
+<<<<<<< HEAD
             },
             "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.Utility\\FPT.Utility.csproj": {
               "projectPath": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.Utility\\FPT.Utility.csproj"
+=======
+>>>>>>> N-Tier-Architecture-02e
             }
           }
         }

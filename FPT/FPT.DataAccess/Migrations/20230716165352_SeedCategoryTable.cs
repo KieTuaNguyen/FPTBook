@@ -4,7 +4,11 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
+<<<<<<< HEAD
 namespace FPT.DataAccess.Migrations
+=======
+namespace FPT.DataAcess.Migrations
+>>>>>>> N-Tier-Architecture-02e
 {
     /// <inheritdoc />
     public partial class SeedCategoryTable : Migration

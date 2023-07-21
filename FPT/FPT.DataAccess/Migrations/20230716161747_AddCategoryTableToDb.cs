@@ -2,7 +2,11 @@
 
 #nullable disable
 
+<<<<<<< HEAD
 namespace FPT.DataAccess.Migrations
+=======
+namespace FPT.DataAcess.Migrations
+>>>>>>> N-Tier-Architecture-02e
 {
     /// <inheritdoc />
     public partial class AddCategoryTableToDb : Migration
