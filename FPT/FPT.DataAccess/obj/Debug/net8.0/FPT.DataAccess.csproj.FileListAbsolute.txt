@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.AssemblyInfo.cs
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.sourcelink.json
+>>>>>>> N-Tier-Architecture-02e
+>>>>>>> dd438ed30c0d777fc96190ed8cbb0cd9517f75bd
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\bin\Debug\net8.0\FPT.DataAccess.deps.json
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\bin\Debug\net8.0\FPT.DataAccess.runtimeconfig.json
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\bin\Debug\net8.0\FPT.DataAccess.dll
@@ -6,12 +18,21 @@ C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\bin\Debug\net8.0\FPT.Models.dll
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\bin\Debug\net8.0\FPT.Utility.dll
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\bin\Debug\net8.0\FPT.Models.pdb
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\bin\Debug\net8.0\FPT.Utility.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dd438ed30c0d777fc96190ed8cbb0cd9517f75bd
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.csproj.AssemblyReference.cache
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.AssemblyInfoInputs.cache
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.AssemblyInfo.cs
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.sourcelink.json
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> N-Tier-Architecture-02e
+>>>>>>> dd438ed30c0d777fc96190ed8cbb0cd9517f75bd
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.csproj.CopyComplete
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\FPT.DataAccess.dll
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.DataAccess\obj\Debug\net8.0\refint\FPT.DataAccess.dll

@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 ﻿using FPT.DataAccess.Data;
+=======
+<<<<<<< HEAD
+﻿using FPT.DataAccess.Data;
+=======
+﻿using FPT.DataAcess.Data;
+>>>>>>> N-Tier-Architecture-02e
+>>>>>>> dd438ed30c0d777fc96190ed8cbb0cd9517f75bd
 using FPT.Models;
 using Microsoft.AspNetCore.Mvc;
 

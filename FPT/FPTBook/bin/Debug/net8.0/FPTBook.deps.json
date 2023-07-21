@@ -10,7 +10,14 @@
         "dependencies": {
           "FPT.DataAccess": "1.0.0",
           "FPT.Models": "1.0.0",
+<<<<<<< HEAD
           "FPT.Utility": "1.0.0",
+=======
+<<<<<<< HEAD
+          "FPT.Utility": "1.0.0",
+=======
+>>>>>>> N-Tier-Architecture-02e
+>>>>>>> dd438ed30c0d777fc96190ed8cbb0cd9517f75bd
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.6.23329.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.6.23329.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0-preview.6.23329.4",
