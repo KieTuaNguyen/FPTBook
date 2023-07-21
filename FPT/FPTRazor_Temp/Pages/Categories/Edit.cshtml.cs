@@ -32,6 +32,5 @@ namespace FPTRazor_Temp.Pages.Categories
             }
             return Page();
         }
-
     }
 }
