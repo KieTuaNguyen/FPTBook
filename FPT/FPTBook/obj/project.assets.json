@@ -640,6 +640,52 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Cryptography.Internal/8.0.0-preview.6.23329.11": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.0-preview.6.23329.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "8.0.0-preview.6.23329.11"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.0-preview.6.23329.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0-preview.6.23329.4",
+          "Microsoft.Extensions.Identity.Stores": "8.0.0-preview.6.23329.11"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Razor.Language/6.0.11": {
         "type": "package",
         "compile": {
@@ -1680,6 +1726,42 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Identity.Core/8.0.0-preview.6.23329.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.0-preview.6.23329.11",
+          "Microsoft.Extensions.Logging": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Options": "8.0.0-preview.6.23329.7"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores/8.0.0-preview.6.23329.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Identity.Core": "8.0.0-preview.6.23329.11",
+          "Microsoft.Extensions.Logging": "8.0.0-preview.6.23329.7"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Logging/8.0.0-preview.6.23329.7": {
@@ -4068,6 +4150,49 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "FPT.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FPT.Models": "1.0.0",
+          "FPT.Utility": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0-preview.6.23329.11",
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.6.23329.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.6.23329.4"
+        },
+        "compile": {
+          "bin/placeholder/FPT.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FPT.DataAccess.dll": {}
+        }
+      },
+      "FPT.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0-preview.6.23329.11"
+        },
+        "compile": {
+          "bin/placeholder/FPT.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FPT.Models.dll": {}
+        }
+      },
+      "FPT.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0-preview.6.23329.11"
+        },
+        "compile": {
+          "bin/placeholder/FPT.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FPT.Utility.dll": {}
+        }
       }
     }
   },
@@ -4854,6 +4979,59 @@
         "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/8.0.0-preview.6.23329.11": {
+      "sha512": "RVyI7DF946hT7cjNKCzLRJKkq1ZtyB1rT2vHyXXZ7Rpr6za9A/xv7QjEUFYkeuMA06lX0NmMayZbCBgfgNwxLQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.internal/8.0.0-preview.6.23329.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "microsoft.aspnetcore.cryptography.internal.8.0.0-preview.6.23329.11.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.0-preview.6.23329.11": {
+      "sha512": "UFbUzKM+Kw1ALzwJLFs8NC826xGPT4VHsjycYXPcL8iMCa+5l6i40fcpqvadPUk2P9FkpyFVnaXglPjjXVI4BQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/8.0.0-preview.6.23329.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "microsoft.aspnetcore.cryptography.keyderivation.8.0.0-preview.6.23329.11.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.0-preview.6.23329.11": {
+      "sha512": "j+EzclqKo5BIFlnqg/9B4lpzcbkbpxBA8sZ1Gx9vVLugxZvEnj4WAzQ3P3oE03wgdkrlxPr34Elfjii9iFNeJA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/8.0.0-preview.6.23329.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.identity.entityframeworkcore.8.0.0-preview.6.23329.11.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.11": {
@@ -6157,6 +6335,44 @@
         "microsoft.extensions.dependencymodel.8.0.0-preview.6.23329.7.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Identity.Core/8.0.0-preview.6.23329.11": {
+      "sha512": "5387uacQpRUhKuiYKngJJfc7hl5c2knpb7UHiHcimpoB7bf/t1btuhSRhkEb6mBaz+POPuLgc3jLeT90XXMCeg==",
+      "type": "package",
+      "path": "microsoft.extensions.identity.core/8.0.0-preview.6.23329.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Identity.Core.dll",
+        "lib/net462/Microsoft.Extensions.Identity.Core.xml",
+        "lib/net8.0/Microsoft.Extensions.Identity.Core.dll",
+        "lib/net8.0/Microsoft.Extensions.Identity.Core.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.xml",
+        "microsoft.extensions.identity.core.8.0.0-preview.6.23329.11.nupkg.sha512",
+        "microsoft.extensions.identity.core.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Identity.Stores/8.0.0-preview.6.23329.11": {
+      "sha512": "Ht3ASu9Cw3vvyVlMRNy2aGhkNn2bNLv3wDiB3dDK6MW8nvhOAjZkAjHn7/uCzdnYeTPVD19MaurYycX1oRjGQQ==",
+      "type": "package",
+      "path": "microsoft.extensions.identity.stores/8.0.0-preview.6.23329.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Identity.Stores.dll",
+        "lib/net462/Microsoft.Extensions.Identity.Stores.xml",
+        "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll",
+        "lib/net8.0/Microsoft.Extensions.Identity.Stores.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.xml",
+        "microsoft.extensions.identity.stores.8.0.0-preview.6.23329.11.nupkg.sha512",
+        "microsoft.extensions.identity.stores.nuspec"
       ]
     },
     "Microsoft.Extensions.Logging/8.0.0-preview.6.23329.7": {
@@ -11607,10 +11823,29 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "FPT.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../FPT.DataAccess/FPT.DataAccess.csproj",
+      "msbuildProject": "../FPT.DataAccess/FPT.DataAccess.csproj"
+    },
+    "FPT.Models/1.0.0": {
+      "type": "project",
+      "path": "../FPT.Models/FPT.Models.csproj",
+      "msbuildProject": "../FPT.Models/FPT.Models.csproj"
+    },
+    "FPT.Utility/1.0.0": {
+      "type": "project",
+      "path": "../FPT.Utility/FPT.Utility.csproj",
+      "msbuildProject": "../FPT.Utility/FPT.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FPT.DataAccess >= 1.0.0",
+      "FPT.Models >= 1.0.0",
+      "FPT.Utility >= 1.0.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0-preview.6.23329.11",
       "Microsoft.EntityFrameworkCore >= 8.0.0-preview.6.23329.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.6.23329.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0-preview.6.23329.4",
@@ -11643,7 +11878,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.DataAccess\\FPT.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.DataAccess\\FPT.DataAccess.csproj"
+            },
+            "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.Models\\FPT.Models.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.Models\\FPT.Models.csproj"
+            },
+            "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.Utility\\FPT.Utility.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPT.Utility\\FPT.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -11659,6 +11904,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.0-preview.6.23329.11, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.0-preview.6.23329.4, )"

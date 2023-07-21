@@ -16,4 +16,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0-preview.6.23360.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FPT.DataAccess\FPT.DataAccess.csproj" />
+    <ProjectReference Include="..\FPT.Models\FPT.Models.csproj" />
+    <ProjectReference Include="..\FPT.Utility\FPT.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
