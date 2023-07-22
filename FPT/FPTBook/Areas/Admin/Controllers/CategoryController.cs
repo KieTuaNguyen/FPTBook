@@ -3,8 +3,9 @@ using FPT.DataAcess.Data;
 using FPT.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FPTBook.Controllers
+namespace FPTBook.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -27,7 +28,8 @@ namespace FPTBook.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
-            if (obj.Name == obj.DisplayOrder.ToString()) {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
                 ModelState.AddModelError("name", "The Display Order Cannot exactly match the Name.");
             }
             if (ModelState.IsValid)
@@ -42,11 +44,11 @@ namespace FPTBook.Controllers
 
         public IActionResult Edit(int? id)
         {
-            if(id==null || id ==0 )
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _unitOfWork.Category.Get(u=>u.Id==id);
+            Category? categoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
             if (categoryFromDb == null)
             {
                 return NotFound();

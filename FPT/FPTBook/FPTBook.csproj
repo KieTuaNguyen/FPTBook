@@ -21,4 +21,8 @@
     <ProjectReference Include="..\FPT.Models\FPT.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
