@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPT.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d05abaa81af59956143159b9d19d33c02b2fc11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eee46e728c9fadd5320c1362bdf8cfcdbfad118")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPT.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPT.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
