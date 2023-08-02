@@ -5,11 +5,11 @@ VisualStudioVersion = 17.7.33906.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPTBook", "FPTBook\FPTBook.csproj", "{BB960D14-EE6A-4A8F-8C97-27538E2C92F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.DataAccess", "FPT.DataAccess\FPT.DataAccess.csproj", "{B46512E4-F7A9-4042-B09C-5CAFDD83817D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPT.DataAccess", "FPT.DataAccess\FPT.DataAccess.csproj", "{B46512E4-F7A9-4042-B09C-5CAFDD83817D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.Models", "FPT.Models\FPT.Models.csproj", "{3812CE8E-EF55-4D0F-BE98-90A46A53698C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPT.Models", "FPT.Models\FPT.Models.csproj", "{3812CE8E-EF55-4D0F-BE98-90A46A53698C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.Utility", "FPT.Utility\FPT.Utility.csproj", "{7580BA35-08A2-4F3D-AD90-55FDA2F26080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPT.Utility", "FPT.Utility\FPT.Utility.csproj", "{7580BA35-08A2-4F3D-AD90-55FDA2F26080}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

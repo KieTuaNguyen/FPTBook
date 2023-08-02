@@ -19103,6 +19103,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+      "TargetPath": "Areas\\Customer\\Views\\Home\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Areas\\Admin\\Views\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
