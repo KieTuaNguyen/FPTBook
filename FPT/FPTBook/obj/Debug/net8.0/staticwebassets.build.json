@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DbXvfDhTSzEbdKAU2wDhygpEoQAiywYMb9AYLRw1bm0=",
+  "Hash": "ekqBAHgqPKJBopqnycethrhm+PxLfTCqt2c+nH8QVhU=",
   "Source": "FPTBook",
   "BasePath": "_content/FPTBook",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\wwwroot\\images\\product\\02ed9032-d197-4418-9f6f-3836f5de2c91.jpg",
+      "SourceId": "FPTBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\wwwroot\\",
+      "BasePath": "_content/FPTBook",
+      "RelativePath": "images/product/02ed9032-d197-4418-9f6f-3836f5de2c91.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\02ed9032-d197-4418-9f6f-3836f5de2c91.jpg"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\wwwroot\\images\\product\\383d2f5f-669d-453d-9538-2bcbc4a31d8d.jpg",

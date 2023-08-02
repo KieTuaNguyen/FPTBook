@@ -19,7 +19,7 @@ function loadDataTable() {
                          <i class="bi bi-pencil-square"></i> 
                          Edit
                      </a>               
-                     <a class="btn btn-danger mx-2">
+                     <a href="/admin/product/delete/${data}" class="btn btn-danger mx-2">
                          <i class="bi bi-trash-fill"></i> 
                          Delete
                      </a>

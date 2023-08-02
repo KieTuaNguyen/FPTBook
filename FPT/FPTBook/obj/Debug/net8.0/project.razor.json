@@ -19153,11 +19153,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
