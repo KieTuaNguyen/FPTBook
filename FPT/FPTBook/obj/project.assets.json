@@ -5055,6 +5055,9 @@
       "FPT.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.10"
+        },
         "compile": {
           "bin/placeholder/FPT.Utility.dll": {}
         },

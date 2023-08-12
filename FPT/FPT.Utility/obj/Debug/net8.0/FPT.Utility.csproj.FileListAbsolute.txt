@@ -10,3 +10,4 @@ C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.dll
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\refint\FPT.Utility.dll
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.pdb
 C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\ref\FPT.Utility.dll
+C:\Users\PC\Desktop\FPTBook\FPT\FPT.Utility\obj\Debug\net8.0\FPT.Utility.csproj.AssemblyReference.cache
