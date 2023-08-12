@@ -1,10 +1,11 @@
 ﻿using FPT.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace FPT.DataAcess.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         // Snippet code to create constructor: ctor
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
