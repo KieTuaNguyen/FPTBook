@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPT.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a936cd5129871650bc86b55c7805642c1737b256")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0eb42e17cbca9d714a4d5c251b6dcfcdbff4a05")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPT.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPT.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
