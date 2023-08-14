@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\product\\f32adc38-b686-4f70-8085-8d05f10b75a1.JPG"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },

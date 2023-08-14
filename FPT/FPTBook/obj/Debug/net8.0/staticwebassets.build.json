@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M+cHAdrr2fTKcrRmLIu7M9VPLPn/5Yin9cDYGRxItCY=",
+  "Hash": "hjHJrQMtIa2Ofbl+BKwnGbWScxcyYpd+Otot8iryLnE=",
   "Source": "FPTBook",
   "BasePath": "_content/FPTBook",
   "Mode": "Default",
@@ -1383,6 +1383,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\f32adc38-b686-4f70-8085-8d05f10b75a1.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\wwwroot\\js\\company.js",
+      "SourceId": "FPTBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\wwwroot\\",
+      "BasePath": "_content/FPTBook",
+      "RelativePath": "js/company.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\company.js"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\wwwroot\\js\\product.js",
