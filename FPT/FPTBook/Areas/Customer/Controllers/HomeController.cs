@@ -58,11 +58,8 @@ namespace FPTBook.Areas.Customer.Controllers
                 // Add cart record
                 _unitOfWork.ShoppingCart.Add(shoppingCart);
             }
-
-
+            TempData["success"] = "Cart updated successfully";
             _unitOfWork.Save();
-
-
             return RedirectToAction(nameof(Index));
         }
 
