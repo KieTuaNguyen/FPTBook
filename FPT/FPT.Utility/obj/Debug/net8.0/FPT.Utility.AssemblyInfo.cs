@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPT.Utility")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64d4a3a9f1f30213632994f3432aa7bc8f0da92e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ca1f1ed660f257aa0a9d4bc369adf8feed35b04")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPT.Utility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPT.Utility")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
