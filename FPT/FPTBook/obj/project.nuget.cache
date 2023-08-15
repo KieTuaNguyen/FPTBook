@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bhfu+x+TISAjIs42Kumru7TSyWhkAuFtPqoAUgRc4yG6OExcraaLa5a7oOV+YbsnyOPD9byIw9HBnUjKu+9xOA==",
+  "dgSpecHash": "QWETmt03YHAHv25ooysZSkbgloYOx5p+6doQ4wHalyPESIHjCUkJzFfpIh9xjBavwtsGi5/DQtCexZifKLTUQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\Desktop\\FPTBook\\FPT\\FPTBook\\FPTBook.csproj",
   "expectedPackageFiles": [
@@ -193,6 +193,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\sqlitepclraw.core\\2.1.5\\sqlitepclraw.core.2.1.5.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.5\\sqlitepclraw.lib.e_sqlite3.2.1.5.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.5\\sqlitepclraw.provider.e_sqlite3.2.1.5.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\stripe.net\\41.28.0\\stripe.net.41.28.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
