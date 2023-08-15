@@ -1,3 +1,7 @@
+Em:
+Email: nguyenhand2311@gmail.com
+Password: Hn.231100
+
 Customer Account:
 Email: Customer@gmail.com
 Password: Customer@2003
