@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FPTBook.Areas.Admin.Controllers
 {
-        public class OrderController : Controller
+    [Area("admin")]
+    public class OrderController : Controller
         {
             private readonly IUnitOfWork _unitOfWork;
 
