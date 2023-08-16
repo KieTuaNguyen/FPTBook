@@ -1,12 +1,13 @@
 ﻿using FPT.DataAccess.Repository.IRepository;
 using FPT.Models;
+using FPT.Models.ViewModels;
 using FPT.Utility;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FPTBook.Areas.Admin.Controllers
 {
-    [Area("admin")]
-    public class OrderController : Controller
+        [Area("admin")]
+        public class OrderController : Controller
         {
             private readonly IUnitOfWork _unitOfWork;
 
@@ -15,15 +16,26 @@ namespace FPTBook.Areas.Admin.Controllers
                 _unitOfWork = unitOfWork;
             }
 
-            public IActionResult Index()
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Details(int orderId)
+        {
+            OrderVM orderVM = new()
             {
-                return View();
-            }
+                OrderHeader = _unitOfWork.OrderHeader.Get(u => u.Id == orderId, includeProperties: "ApplicationUser"),
+                OrderDetail = _unitOfWork.OrderDetail.GetAll(u => u.OrderHeaderId == orderId, includeProperties: "Product")
+            };
+
+            return View(orderVM);
+        }
 
 
-            #region API CALLS
+        #region API CALLS
 
-            [HttpGet]
+        [HttpGet]
             public IActionResult GetAll(string status)
             {
             IEnumerable<OrderHeader> objOrderHeaders = _unitOfWork.OrderHeader.GetAll(includeProperties: "ApplicationUser").ToList();
