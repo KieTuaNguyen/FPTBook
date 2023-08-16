@@ -26,5 +26,8 @@ namespace FPT.Utility
 		public const string PaymentStatusApproved = "Approved";
 		public const string PaymentStatusDelayedPayment = "ApprovedForDelayedPayment";
 		public const string PaymentStatusRejected = "Rejected";
-	}
+
+		// Shopping cart section
+        public const string SessionCart = "SessionShoppingCart";
+    }
 }
