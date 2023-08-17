@@ -25,8 +25,7 @@ namespace FPT.Utility
 
             var client = new SendGridClient(SendGridSecret);
 
-            //var from = new EmailAddress("kietntgdd210002@fpt.edu.vn", "FPT Book");
-            var from = new EmailAddress("hello@dotnetmastery.com", "Bulk Book");
+            var from = new EmailAddress("kietntgdd210002@fpt.edu.vn", "FPTBook");
             var to = new EmailAddress(email);
             var message = MailHelper.CreateSingleEmail(from, to, subject, "", htmlMessage);
 
