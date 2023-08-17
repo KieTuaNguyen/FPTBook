@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FPT.DataAccess.DbInitializer
 {
-    public interface IDBInitializer
+    public interface IDbInitializer
     {
         void Initialize();
     }
