@@ -10,16 +10,16 @@ using System.Threading.Tasks;
 
 namespace FPT.DataAccess.Repository
 {
-    public class ProductImageRepository : Repository<ProductImage>, IProductImageRepository
+    public class CategoryRepository : Repository<Category>, ICategoryRepository 
     {
         private ApplicationDbContext _db;
-        public ProductImageRepository(ApplicationDbContext db) : base(db)
-        {
+        public CategoryRepository(ApplicationDbContext db) : base(db) {
             _db = db;
         }
-        public void Update(ProductImage obj)
+
+        public void Update(Category obj)
         {
-            _db.ProductImages.Update(obj);
+            _db.Categories.Update(obj);
         }
     }
 }
