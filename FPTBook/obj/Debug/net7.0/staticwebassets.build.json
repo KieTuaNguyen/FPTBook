@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t2VwiOFkimqKMui6asnJ00rj4ucTaGf5WnV86CYm7Pk=",
+  "Hash": "NPZmfZJPAxpzs8YNXzfkMFqt7DJUP4o74aUyYiAbtk0=",
   "Source": "FPTBook",
   "BasePath": "_content/FPTBook",
   "Mode": "Default",
@@ -1497,6 +1497,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\FPTBook\\FPTBook\\wwwroot\\js\\user.js",
+      "SourceId": "FPTBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\FPTBook\\FPTBook\\wwwroot\\",
+      "BasePath": "_content/FPTBook",
+      "RelativePath": "js/user.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\user.js"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\FPTBook\\FPTBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

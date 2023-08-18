@@ -17,3 +17,12 @@ Password: Company@2003
 Employee Account:
 Email: Employee@gmail.com
 Password: Employee@2003
+
+--
+Company 1:
+TechSolution@Company.com
+TechSolution123@
+
+Company 2:
+ReaderClub@Company.com
+ReaderClub123@
