@@ -25,26 +25,31 @@ namespace FPTBook.Areas.Admin.Controllers
             return View();
         }
 
-
-
         #region API CALLS
-
         [HttpGet]
         public IActionResult GetAll()
         {
             List<ApplicationUser> objUserList = _db.ApplicationUsers.Include(u => u.Company).ToList();
 
+            foreach (var user in objUserList)
+            {
+                if (user.Company == null)
+                {
+                    user.Company = new Company()
+                    {
+                        Name = ""
+                    };
+                }
+            }
+
             return Json(new { data = objUserList });
         }
-
 
         [HttpDelete]
         public IActionResult Delete(int? id)
         {
-
             return Json(new { success = true, message = "Delete Successful" });
         }
-
         #endregion
     }
 }
